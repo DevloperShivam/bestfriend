@@ -17,3 +17,9 @@ function logout() {
         window.location.href = '/login.html';
     });
 }
+
+// Add this redirect check
+if (!document.cookie.includes('CF_Authorization') && 
+    !window.location.href.includes('/cdn-cgi/access')) {
+    window.location.href = '/login.html';
+}
