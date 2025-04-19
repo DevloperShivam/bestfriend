@@ -1,0 +1,64 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.login-box {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    max-width: 500px;
+    width: 90%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.login-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    background: white;
+    color: #f5576c;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 1.5rem 0;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.login-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.login-btn i {
+    margin-right: 10px;
+}
+
+.friendship-symbol {
+    font-size: 2rem;
+    margin-top: 1rem;
+    opacity: 0.8;
+}
